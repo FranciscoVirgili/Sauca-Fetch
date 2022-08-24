@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito Sans', sans-serif; }
+
+/*  INDEX  */
+
+body{
+    background: #f6f4fb !important;
+}
+
+ /*  HEADER  */
+
+header {
+    display: flex !important;
+    height: 35vh;
+    width: 100%;
+    flex-direction: column;
+    background-color: #f6f4fb !important;
+}
+
+.promocion{
+    background-color: black;
+    color: white;
+    
+}
+
+.promocion p{
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+.imagen_principal {
+    margin-left: 2rem;
+}
+
+.utilities{
+    margin-right: 4rem;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.iconos_utilities{
+    align-items: center;
+    width: 33vw;
+    display: inline-flex;
+    justify-content: space-evenly;
+    
+}
+
+.texto_utilities{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 8px;
+}
+
+.utilities img {
+    width: 23px;
+    height: 25px;
+    
+}
+
+#total_carrito{
+    text-align: center;
+    height: 3vh;
+}
+
+.container-fluid{
+    display: flex;
+    align-items: center;
+}
+
+.container-fluid h1{
+    margin-right: 28vw;
+    color: #4e6e4fbf;
+}
+
+#lista_header {
+    width: 100% !important;
+}
+
+.lista_paginas {
+    display: flex;
+    width: 100% !important;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 10vh;
+}
+
+.lista_paginas li {
+    list-style: none;
+    font-size: 20px;
+}
+
+.lista_paginas li a {
+    color: #0b0b0bbf;
+    text-decoration: none;
+
+}
+
+.lista_paginas li a:hover{
+    color: rgb(99, 128, 88);
+    transition: all 0.6s;
+    font-size: 30px;
+
+}
+
+.navbar {
+    border: black;
+    border-block-end: solid;
+    border-block-end-width: 2px;
+}
+
+#form {
+    width: 30vw;
+}
+
+#form input{
+    width: 40vw !important;
+}
+
+/*  Cards  */
+
+#card_productos{
+    display: flex;
+    padding: 1rem;
+    height: 100%;
+    flex-wrap: wrap;
+    margin-left: 3rem;
+}
+
+h2{
+font-size: 18px !important;
+}
+
+#card_productos div {
+    display: flex;
+    flex-direction: column;
+}
+
+#card_productos img {
+    width: 20vw;
+    height: 45vh;
+    align-self: center;
+}
+
+#carrito{
+    border: black;
+    border-block-end: solid;
+    border-block-end-width: 2px;
+}
+
+.card-text {
+    width: 300px;
+    text-align: justify;
+    margin-top: 8px;
+}
+
+.card-price {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.card-body{
+    align-items: center;
+    margin: 1rem;
+}
+
+#boton_carrito{
+    width: 10rem !important;
+}
+
+#carrito{
+    width: 100%;
+    display: flex;
+}
+
+.list-group{
+    align-items: center;
+    width: 100%;
+    background-color: #f6f4fb ;
+}
+
+.list-group li{
+    width: 100%;
+    background-color: #f6f4fb;
+    border: none;
+}
+
+.list-group button{
+    width: 18rem !important;
+    margin: 1rem;
+}
+
+.lista_productos{
+    margin: 2vw;
+}
+
+
+/*  FOOTER  */
+
+footer img {
+    width: 25px;
+    height: 25px;
+
+}
+
+.sobre_sauca{
+    align-items: center;
+    text-align: justify;
+}
+
+.contacto{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+#weather_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 35vh;
+    background: #1D976C;
+    background: -webkit-linear-gradient(to right, #93F9B9, #1D976C);
+    background: linear-gradient(to right, #93F9B9, #1D976C);
+}
+
+.card_weather {
+    text-align: center;
+}
+
+.card_weather  h2{
+    text-align: center;
+
+
+}
